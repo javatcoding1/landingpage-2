@@ -24,26 +24,37 @@ export const metadata: Metadata = {
   keywords: ["professional networking", "video chat", "business meetings", "professional connections", "WebRTC", "real-time communication"],
   authors: [{ name: "Helixque Team" }],
   openGraph: {
-    title: "Helixque",
+    title: "Helixque - Professional Networking Platform",
     description: "Connect with professionals worldwide through real-time video chat. Match based on preferences and build meaningful business relationships.",
     type: "website",
     siteName: "Helixque",
+    url: "https://helixque.com",
     images: [
       {
         url: "/logo.svg",
         width: 1200,
         height: 630,
         alt: "Helixque - Professional Networking Platform",
+        type: "image/svg+xml",
       },
     ],
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Helixque",
+    site: "@helixque",
+    creator: "@helixque", 
+    title: "Helixque - Professional Networking Platform",
     description: "Connect with professionals worldwide through real-time video chat platform.",
-    images: ["/logo.svg"],
+    images: {
+      url: "/logo.svg",
+      alt: "Helixque - Professional Networking Platform",
+    },
   },
   robots: "index, follow",
+  alternates: {
+    canonical: "https://helixque.com",
+  },
   icons: {
     icon: "/logo.svg",
     shortcut: "/logo.svg",
