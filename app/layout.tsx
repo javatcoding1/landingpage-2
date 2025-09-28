@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     url: "https://helixque.com",
     images: [
       {
-        url: "/logo.svg",
+        url: "/Logo (2).png",
         width: 1200,
         height: 630,
         alt: "Helixque - Professional Networking Platform",
-        type: "image/svg+xml",
+        type: "image/png",
       },
     ],
     locale: "en_US",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Helixque - Professional Networking Platform",
     description: "Connect with professionals worldwide through real-time video chat platform.",
     images: {
-      url: "/logo.svg",
+      url: "/Logo (2).png",
       alt: "Helixque - Professional Networking Platform",
     },
   },
